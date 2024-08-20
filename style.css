@@ -37,7 +37,7 @@ main {
   padding: 2rem 2rem;
   padding-bottom: 2rem;
   height: auto;
-  width: min(65vw, 400px);
+  width: min(50vw, 400px);
   border-radius: 9px;
 }
 
@@ -51,9 +51,9 @@ main {
 }
 
 .profile-pic {
-  width: 60%;
+  width: 50%;
   border-radius: 60px;
-  margin-bottom: 13px;
+  margin-bottom: 30px;
 }
 
 .name {
@@ -76,7 +76,7 @@ main {
 
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 15px;
   align-items: stretch;
   width: 100%;
 }
