@@ -27,7 +27,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Github Repo](https://github.com/Ghost-Writer-2/Social-links-project)
-- Live Site URL: [Live](https://ghost-writer-2.github.io/Social-preview-project/)
+- Live Site URL: [Live](https://ghost-writer-2.github.io/Social-Links/)
 
 ## My process
 
