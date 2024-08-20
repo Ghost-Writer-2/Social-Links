@@ -34,7 +34,7 @@ main {
   background-color: hsl(0, 0%, 12%);
   align-items: center;
   justify-content: center;
-  padding: 3rem 2rem;
+  padding: 2rem 2rem;
   padding-bottom: 2rem;
   height: auto;
   width: min(65vw, 400px);
