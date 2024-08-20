@@ -1,0 +1,158 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: hsl(0, 0%, 100%);
+  font-family: var(--font-family);
+  font-weight: var(--font-weight);
+  font-style: var(--font-style);
+  font-optical-sizing: var(--font-optical-sizing);
+}
+
+:root {
+  --font-weight: 400;
+  --font-family: "Inter", sans-serif;
+  --font-style: normal;
+  --font-optical-sizing: auto;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: hsl(0, 0%, 8%);
+  height: 100vh;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  background-color: hsl(0, 0%, 12%);
+  align-items: center;
+  justify-content: center;
+  padding: 1rem 2rem;
+  padding-bottom: 2rem;
+  height: auto;
+  width: min(65vw, 400px);
+  border-radius: 9px;
+}
+
+.profile-container {
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+.profile-container > p {
+  margin-bottom: 5px;
+}
+
+.profile-pic {
+  width: 60%;
+  border-radius: 60px;
+  margin-bottom: 13px;
+}
+
+.name {
+  --font-weight: 700;
+
+  font-size: 1.5em;
+}
+
+.location {
+  color: hsl(75, 94%, 57%);
+  font-size: 0.8em;
+}
+
+.bio {
+  font-size: 14px;
+}
+
+.socials {
+  --font-weight: 600;
+
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: stretch;
+  width: 100%;
+}
+
+.social {
+  background-color: hsl(0, 0%, 20%);
+  padding: 0.8rem 2rem;
+  width: 100%;
+  text-align: center;
+  border-radius: 8px;
+  transition: background-color 0.3s, color 0.4s;
+  cursor: pointer;
+}
+
+.social:hover {
+  --font-weight: 700;
+
+  font-weight: var(--font-weight);
+  background-color: hsl(75, 94%, 57%);
+  color: black;
+}
+
+footer {
+  position: relative;
+  top: 10%;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(200, 100%, 80%);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 480px) {
+  main {
+    width: min(80vw, 200rem);
+    height: min(600px);
+  }
+
+  .socials {
+    gap: 1rem;
+  }
+  
+}
+
+/* @media (max-width: 375px) {
+  main {
+    width: min(90vw, 200rem);
+    height: min(600px);
+  }
+
+  .socials {
+    gap: 1rem;
+  }
+  
+} */
+
+@media (max-width: 393px) {
+  * {
+    font-optical-sizing: none;
+  }
+  main {
+    width: min(90vw, 200rem);
+    height: min(70vh, 600px);
+  }
+
+  .socials {
+    gap: 1rem;
+  }
+  
+}
